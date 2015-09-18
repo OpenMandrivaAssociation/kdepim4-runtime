@@ -1,4 +1,5 @@
 %define _disable_ld_no_undefined 1
+%define oname kdepim-runtime
 
 Summary:	K Desktop Environment Information Management runtime stuff
 Name:		kdepim4-runtime
@@ -14,7 +15,7 @@ Url:		http://community.kde.org/KDE_PIM
 %else
 %define ftpdir stable
 %endif
-Source0:	http://download.kde.org/%{ftpdir}/%{version}/src/%{name}-%{version}.tar.xz
+Source0:	http://download.kde.org/%{ftpdir}/%{version}/src/%{oname}-%{version}.tar.xz
 Source1:	kdepim4-runtime.rpmlintrc
 Patch10:	kdepim-runtime-4.10.5-noakonaditray.patch
 BuildRequires:	boost-devel
@@ -169,7 +170,7 @@ based on kdepim-runtime.
 #----------------------------------------------------------------------
 
 %prep
-%setup -q -n kdepim-runtime-%{version}
+%setup -q -n %{oname}-%{version}
 %patch10 -p1
 
 %build
