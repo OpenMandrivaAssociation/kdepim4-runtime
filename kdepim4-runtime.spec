@@ -19,7 +19,7 @@ Source1:	kdepim4-runtime.rpmlintrc
 Patch10:	kdepim-runtime-4.10.5-noakonaditray.patch
 BuildRequires:	boost-devel
 BuildRequires:	kdelibs-devel >= 5:%{version}
-BuildRequires:	kdepimlibs-devel
+BuildRequires:	kdepimlibs4-devel
 BuildRequires:	qt4-qtdbus
 BuildRequires:	akonadi
 BuildRequires:	pkgconfig(akonadi)
