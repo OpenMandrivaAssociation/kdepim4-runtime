@@ -148,13 +148,12 @@ KDE 4 library.
 %package devel
 Summary:	Devel stuff for %{name}
 Group:		Development/KDE and Qt
-Requires:	kdepimlibs-devel
+Requires:	kdepimlibs4-devel
 Requires:	%{libakonadi_filestore} = %{EVRD}
 Requires:	%{libfolderarchivesettings} = %{EVRD}
 Requires:	%{libkdepim_copy} = %{EVRD}
 Requires:	%{libkmindexreader} = %{EVRD}
 Requires:	%{libmaildir} = %{EVRD}
-%rename		kdepim4-runtime-devel
 
 %description devel
 This package contains header files needed if you wish to build applications
