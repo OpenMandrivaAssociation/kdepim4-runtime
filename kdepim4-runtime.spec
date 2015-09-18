@@ -4,7 +4,7 @@
 Summary:	K Desktop Environment Information Management runtime stuff
 Name:		kdepim4-runtime
 Version:	4.14.10
-Release:	3
+Release:	4
 Epoch:		3
 License:	GPLv2+
 Group:		Graphical desktop/KDE
