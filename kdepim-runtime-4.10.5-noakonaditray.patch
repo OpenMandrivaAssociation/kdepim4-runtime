@@ -1,0 +1,11 @@
+diff -urN kdepim-runtime-4.10.5/tray/akonaditray.desktop kdepim-runtime-4.10.5-patched/tray/akonaditray.desktop
+--- kdepim-runtime-4.10.5/tray/akonaditray.desktop	2013-06-29 04:35:42.000000000 +1100
++++ kdepim-runtime-4.10.5-patched/tray/akonaditray.desktop	2013-07-03 21:01:28.171635950 +1100
+@@ -3,6 +3,7 @@
+ Categories=Qt;KDE;Utility;
+ Exec=akonaditray
+ Icon=akonaditray
++NoDisplay=true
+ Name=Akonaditray
+ Name[ar]=Akonaditray
+ Name[bs]=Akonaditray
